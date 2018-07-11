@@ -86,7 +86,7 @@ function dataURItoBlob(dataURI) {
 buttonFile.onclick = function () {
   let image = document.getElementById('uploadImage').files[0];
   if (image) {
-    reader.decodeFileInMemery(image).then(function (results) {
+    reader.decodeFileInMemery(image).then(results => {
       let txts = [];
       for (let i = 0; i < results.length; ++i) {
         txts.push(results[i].BarcodeText);
