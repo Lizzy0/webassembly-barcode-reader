@@ -59,3 +59,6 @@ reader.decodeBuffer(idd.buffer, imageWidth, imageHeight, imageWidth * 4, dynamso
 ```
 
 ![webassembly barcode reader in Chrome](https://www.codepool.biz/wp-content/uploads/2018/07/webassembly-barcode-dynamsoft.gif)
+
+## Blog
+[The Preview of Dynamsoft WebAssembly Barcode SDK](https://www.codepool.biz/javascript-webassembly-barcode-sdk.html)
